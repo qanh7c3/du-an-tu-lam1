@@ -13,6 +13,11 @@ body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
 }
+.total-header{
+  width: 1440px;
+height: 860px;
+flex-shrink: 0;
+}
 .header {
   position: sticky;
   top: 10px;
@@ -213,8 +218,10 @@ a {
 }
 .middle-header .left-content {
   margin-left: 135px;
+  margin-top: -7px;
 }
 .middle-header .right-content1 {
+  margin-top: -98px;
   width: 641px;
   height: 631px;
   display: flex;
@@ -240,8 +247,8 @@ a {
   border-radius: 18px;
   background: #fefefd;
   box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
-  margin-top: -533px;
-  margin-left: -61px;
+  margin-top: -485px;
+  margin-left: -40px;
 }
 .middle-header .right-content .top-left .text-menu {
   width: 55px;
@@ -253,8 +260,8 @@ a {
   line-height: normal;
 }
 .middle-header .right-content .bottom-left {
-  margin-top: -229px;
-  margin-left: 2px;
+  margin-top: -181px;
+  margin-left: -65px;
   width: 124px;
   height: 132px;
   flex-shrink: 0;
@@ -266,4 +273,44 @@ a {
 }
 .middle-header .right-content .bottom-left .icon {
   margin-left: 25px;
+}
+.middle-header .right-content .bottom-right{
+  margin-top: -133px;
+  margin-left: 324px;
+  text-align: center;
+  width: 207px;
+height: 90px;
+flex-shrink: 0;
+border-radius: 24px;
+background: #FEFEFD;
+box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+}
+.middle-header .right-content .bottom-right .text-menu{
+margin-top: 17px;
+color: #0D1111;
+font-family: Poppins;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.middle-header .right-content .bottom-right .icon{
+margin-top: 8px;
+  width: 33px;
+height: 33px;
+flex-shrink: 0;
+border-radius: 33px;
+  margin-left: -12px;
+}
+.middle-header .right-content .bottom-right .icon1 {
+background-color:#1EBFC1;
+}
+.middle-header .right-content .bottom-right .icon2{
+  background-color: #FFC147;
+}
+.middle-header .right-content .bottom-right .icon3{
+  background-color: #FF947A;
+}
+.middle-header .right-content .bottom-right .icon4{
+  background-color: #BF83FF;
 }

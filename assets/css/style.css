@@ -673,3 +673,164 @@ background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 background: url(<path-to-image>) lightgray 50% / cover no-repeat;
   background-color: #FF8282;
 }
+.main .main-end{
+  display: flex;
+  margin-top: 130px;
+  width: 1440px;
+height: 272px;
+flex-shrink: 0;
+  background: #DEF6F5;
+}
+.main-end .tittle{
+  width: 420px;
+  margin-top: 76px;
+  color: #070707;
+font-family: Poppins;
+font-size: 4.2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.main-end .text{
+  width: 397px;
+  margin-top: 18px;
+  color: #767E7E;
+font-family: Poppins;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main-end .button{
+  
+  color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.main-end .left{
+  margin-left: 410px;
+  margin-top: 96px;
+  width: 186px;
+height: 68px;
+text-align: center;
+align-content: center;
+flex-shrink: 0;
+  border-radius: 14px;
+background: #2AC9BF;
+}
+.main-end .right{
+  margin-left: 135px;
+}
+/* -----------------footer------------------------------------------------------- */
+.footer{
+  overflow: hidden;
+  background-color:#FFF;;
+  width: 1440px;
+height: 494px;
+flex-shrink: 0;
+}
+.footer .top-footer{
+  display: flex;
+}
+.footer .logo-header {
+  width: 127px;
+height: 37px;
+flex-shrink: 0;
+  margin-left: 135px;
+  margin-top: 130px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.footer .logo-header .logo-1,
+.logo-2,
+.logo-3 {
+  position: absolute;
+}
+.footer .logo-1 {
+  flex-shrink: 0;
+  fill: #192122;
+}
+.footer .logo-3 {
+  width: 30px;
+  height: auto;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+.footer .logo-2 {
+  width: 32.137px;
+  height: 32.731px;
+  flex-shrink: 0;
+  margin-left: 3px;
+  margin-top: 3px;
+}
+.footer .logo-header .brand {
+  width: 75.517px;
+  height: 17.47px;
+  flex-shrink: 0;
+  fill: #192122;
+  margin-left: 42.91px;
+}
+.footer .logo-header .logo {
+  width: 5.85px;
+  height: 5.958px;
+  flex-shrink: 0;
+  fill: #192122;
+  margin-top: 10px;
+}
+.footer .top-footer .tittle{
+  color: #2E2E2E;
+font-family: Poppins;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.footer .top-footer .text,.text-end{
+  color: #535353;
+font-family: Poppins;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.footer .top-footer .card11,.card22,.card33,.card44{
+  margin-top: 130px;
+}
+
+.footer .top-footer .text{
+  margin-top: 20px;
+}
+.footer .top-footer .card11{
+ margin-left: 153.43px;
+}
+.footer .top-footer .card22,.card33{
+margin-left: 144px;
+}
+.footer .top-footer .card44{
+  margin-left: 137px;
+}
+.footer .top-footer .card44 .tittle-icon{
+  display: flex;
+  gap:9px;
+}
+.footer .top-footer .text-first{
+  margin-top: 25px;
+}
+.footer .top-footer .card44 .tittle-icon{
+  margin-top: 20px;
+}
+.footer .end-footer .watermark{
+  margin-top: 80px;
+  color: #B0B5B4;
+font-family: Poppins;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
